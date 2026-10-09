@@ -1,0 +1,9 @@
+co\edu\unicauca\cliente\dto\ConsultaTransaccionesDTO.class
+co\edu\unicauca\cliente\dto\ErrorDTO.class
+co\edu\unicauca\cliente\excepciones\ServidorNoDisponibleException.class
+co\edu\unicauca\cliente\excepciones\ErrorServidorException.class
+co\edu\unicauca\cliente\servicios\ClienteTransaccionesRest.class
+co\edu\unicauca\cliente\dto\RespuestaTransaccionDTO.class
+co\edu\unicauca\cliente\ClienteApp.class
+co\edu\unicauca\cliente\dto\TokenDTO.class
+co\edu\unicauca\cliente\dto\TransaccionDTO.class

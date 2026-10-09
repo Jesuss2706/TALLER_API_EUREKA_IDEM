@@ -1,0 +1,9 @@
+G:\Mi unidad\ii-2026\Sistemas distribuidos\9. Fallos de comunicación\cliente-transacciones\src\main\java\co\edu\unicauca\cliente\ClienteApp.java
+G:\Mi unidad\ii-2026\Sistemas distribuidos\9. Fallos de comunicación\cliente-transacciones\src\main\java\co\edu\unicauca\cliente\dto\ConsultaTransaccionesDTO.java
+G:\Mi unidad\ii-2026\Sistemas distribuidos\9. Fallos de comunicación\cliente-transacciones\src\main\java\co\edu\unicauca\cliente\dto\ErrorDTO.java
+G:\Mi unidad\ii-2026\Sistemas distribuidos\9. Fallos de comunicación\cliente-transacciones\src\main\java\co\edu\unicauca\cliente\dto\RespuestaTransaccionDTO.java
+G:\Mi unidad\ii-2026\Sistemas distribuidos\9. Fallos de comunicación\cliente-transacciones\src\main\java\co\edu\unicauca\cliente\dto\TokenDTO.java
+G:\Mi unidad\ii-2026\Sistemas distribuidos\9. Fallos de comunicación\cliente-transacciones\src\main\java\co\edu\unicauca\cliente\dto\TransaccionDTO.java
+G:\Mi unidad\ii-2026\Sistemas distribuidos\9. Fallos de comunicación\cliente-transacciones\src\main\java\co\edu\unicauca\cliente\excepciones\ErrorServidorException.java
+G:\Mi unidad\ii-2026\Sistemas distribuidos\9. Fallos de comunicación\cliente-transacciones\src\main\java\co\edu\unicauca\cliente\excepciones\ServidorNoDisponibleException.java
+G:\Mi unidad\ii-2026\Sistemas distribuidos\9. Fallos de comunicación\cliente-transacciones\src\main\java\co\edu\unicauca\cliente\servicios\ClienteTransaccionesRest.java
