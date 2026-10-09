@@ -22,7 +22,11 @@ public class ProductoRestController {
 	private IProductoService productoService;
 
 	@GetMapping("/productos")
-	public ResponseEntity<?> listarProductos()
+	public ResponseEntity<?> listarProductos(@RequestHeader (value = "X-Gateway-Passed", required = false) String gatewayHeader) {
+		if (gatewayHeader == null || !gatewayHeader.equals("true")) {
+			return ResponseEntity.status(HttpStatus.FORBIDDEN).body("Acceso denegado desde el controlador. Debe pasar por el API Gateway.");
+		}
+		return ResponseEntity.ok(productoService.findAll());
 	}
 
 	@GetMapping("/productos/{id}")
