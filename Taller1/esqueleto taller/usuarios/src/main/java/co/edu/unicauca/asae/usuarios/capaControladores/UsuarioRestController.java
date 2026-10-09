@@ -22,13 +22,13 @@ public class UsuarioRestController {
 
 	@GetMapping("/usuarios")
 	public List<UsuarioDTO> listarUsuarios() {
-		
+		return usuarioService.findAll();
 	}
 
 	@GetMapping("/usuarios/{id}")
 	public UsuarioDTO consultarUsuario(@PathVariable Integer id) {
 		UsuarioDTO objProducto = null;
-		
+		objProducto=usuarioService.findById(id);
 		return objProducto;
 	}
 
